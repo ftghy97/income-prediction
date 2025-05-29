@@ -54,7 +54,7 @@ def user_input():
         'Armed-Forces'
     ])
 
-    sex = st.selectbox('Sex', ['Male', 'Female'])
+    gender = st.selectbox('Gender', ['Male', 'Female'])
     relationship = st.selectbox('Relationship', [
         'Husband', 'Not-in-family', 'Own-child', 'Unmarried', 'Wife', 'Other-relative'
     ])
@@ -76,7 +76,7 @@ def user_input():
         f'Education_{education}': 1,
         f'Marital Status_{marital_status}': 1,
         f'Occupation_{occupation}': 1,
-        f'Sex_{sex}': 1,
+        f'Gender_{gender}': 1,
         f'Relationship_{relationship}': 1,
         f'Race_{race}': 1,
         f'Native Country_{native_country}': 1
